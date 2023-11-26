@@ -1,0 +1,65 @@
+#chartDiv {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 9px 0px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    row-gap: 5px;
+    
+}
+#title {
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+#myButton button {
+    border: 1px solid sandybrown;
+    padding: 3px;
+    border-radius: 5px;
+}
+#myButton button:hover,button:focus { 
+    color: purple;
+    font-weight: bold;
+}
+#myButton {
+    margin-top: 0px;
+    margin-bottom: 5%;
+    display: flex;
+    padding: 4px;
+    justify-content: space-around;
+    border-radius: 5px;
+    border: 1px solid cyan;
+    background-color: black;
+    color: cyan;
+}
+#chart1 p,#chart2 p {
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    font-family: "Lucida Handwriting";
+    letter-spacing: 1px;
+    font-style: italic;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+ #textarea {
+    outline-color: yellow;
+    color: white;
+    font-weight: 500;
+    padding: 1px;
+    background-image: linear-gradient(180deg, #22c55e, black);
+}
+#chart1,#chart2 {
+    border: 1px solid rgb(199, 145, 30);
+    border-radius: 5px;
+    padding: 2px;
+    background-color: azure;
+}
+#chart1 textarea{
+    
+}

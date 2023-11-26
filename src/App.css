@@ -1,0 +1,581 @@
+@media only screen and (min-width: 640px) {
+    #personalDetails {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       background-color: #cac35b;
+       padding: 5px;
+       margin-top: 5%;
+    }
+    #fullstar {
+        width: 60px;
+        height: 60px;
+    }
+    #filledstar {
+        width: 50px;
+        height: 50px;
+    }
+    #emptystar{
+        width: 40px;
+        height: 40px;
+    }
+    #emailForm input, textarea {
+        background-color: slategray;
+        color: white;
+        border-radius: 5px;
+        width: fit-content;
+        min-width: 300px;
+        padding: 4px;
+        font-weight: normal;
+    }
+    #emailForm {
+        display: grid;
+        width: fit-content;
+        justify-content: left;
+        width: fit-content;
+       font-weight: bold;
+    }
+    
+    #emailformDiv1-2 {
+        background-color: #cac35b;
+        padding: 5px;
+        border-radius: 5px;
+        max-width: 400px;
+        display: grid;
+        justify-content: left;
+    }
+    #home {
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        align-items: center;
+    }
+    #personalDetails1 {
+        width: 50%;
+        padding: 3px;
+        border-radius: 5px;
+    }
+    .block {
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+    }
+    #personalDetails1 img {
+        width: fit-content;
+
+    }
+    #part1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: green;
+        width: 80%;
+    }
+    #partImg {
+        background-size: cover;
+        min-width: 250px;
+        border-radius: 5px;
+        max-height: 200px;
+    }
+    #partMaster textarea {
+        overflow: auto;
+        resize: vertical;
+        height: fit-content;
+        width: 80%;
+    }
+    #partMaster {
+        
+        display: flex;
+        flex-direction: row;
+        min-width: 600px;
+        gap: 1px;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 1024px) {
+  #personalDetails {
+    font-size: large;
+    max-width: 80%;
+    max-height: 80%;
+    color: blue;
+    font-weight: 500;
+    
+  }
+  #personalDetails1 {
+    border: transparent;
+
+  }
+  #home {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width : 640px){
+   #emailForm {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: slategray;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+} 
+#emailForm input, textarea {
+    background-color: azure;
+    color: black;
+    padding: 2px;
+    margin-top: 2px;
+    resize: vertical;
+    width: 100%;
+    border-radius: 5px;
+}
+#filledstar {
+    width: 40px;
+    height: 40px;
+}
+#fullstar {
+    width: 50px;
+    height: 50px;
+}
+#emptystar{
+    width: 30px;
+    height: 30px;
+}
+}
+#notifier p {
+    text-align: center;
+}   
+#message {
+    background-color: slategray;
+}
+#starDiv {
+    padding: 5px;
+}
+#emptystar, #filledstar {
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+#rateDiv {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#filledstar {
+    display: none;
+}
+#starDiv {
+    display: inline-flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#notifier {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+    padding: 5px;
+    background-color: black;
+    width: fit-content ;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+   
+
+}
+#notifier img {
+ 
+    border-radius: 100%;
+}
+
+#emailForm button, #button {
+    background-color: black;
+    color: cyan;
+    padding: 3px;
+    border-radius: 5px;
+    width: 60px;
+    min-width: fit-content;
+    margin: 5px 0px;
+
+}
+#emailformDiv1-2 {
+    width: 80%;
+    display: grid;
+    justify-content: center;
+
+}
+#emailForm textarea {
+    text-align: left;
+    justify-content: start;
+    color: black;
+}
+
+#loginDiv {
+     display: flex;
+     flex-direction: column;
+     justify-content: left;
+     margin-left: 5px;
+     padding: 5px;
+     text-overflow: ellipsis;
+}
+#displayerMaster {
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+#displayer textarea {
+    background-color: slategray;
+}
+#displayer {
+    display: inline-flex;
+    gap: 12px;
+   width: fit-content;
+   
+    margin-left: auto;
+    margin-right: auto;    
+}
+#BtnDiv {
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#error {
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#registerBtn {
+    background-color: black;
+    color: gold;
+    border-radius: 5px;
+    padding: 3px;
+    width: fit-content;
+    min-width: 80px;
+    font-weight: bold;
+    min-height: 30px;
+}
+#loggerForm input,select,option {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px 1px;
+    outline: none;
+    background-color: white;
+    
+}
+#loggerForm input:focus,select:focus,option:focus {
+    padding: 7px;
+    border: 1px solid blue;
+}
+
+#loggerForm label {
+    text-align: left;
+    background-color: slategray;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px 1px;
+    border-radius: 5px;
+    font-family: serif;
+}
+#errorDiv img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+#successDiv img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+#successDiv {
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#errorDiv {
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#errorContent {
+    text-align: center;
+   background-color: black;
+    gap: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    min-width: 90px;
+    display:flex;
+    flex-direction: row;
+}
+#personalDetails {
+    border: 1px solid black;
+
+}
+body {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-margin-top: 120px;
+}
+#newsform {
+    display: flex;
+    justify-content: space-around;
+    
+}
+#newsform select,option {
+    background-color: slategray;
+    color: white;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 5px;
+}
+#home {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#personalDetails1 {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#social img {
+    width: 30px;
+}
+#moon {
+    display: none;
+    background-color: white;
+    border-radius: 100%;
+}
+#hr1 {
+    height: 3px;
+    margin: 3px 0px;
+    background-color: black;
+}
+#part2-1 {
+    display: grid;
+   padding: 3px;
+}
+#part2-1 textarea,#part2-2 textarea {
+    border: 1px solid chocolate;
+    padding: 3px;
+    color: black;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 3px 1px;
+}
+
+#partMaster {
+    word-wrap: normal;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}#part2 textarea {
+    
+    min-height: 50px;
+    max-width: 100%;
+    min-width: fit-content;
+    height: fit-content;
+    white-space: nowrap;
+    color: black;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+#part1 textarea {
+    position: relative;
+    outline: none;
+    
+    min-height: 50px;
+    
+    white-space: nowrap;
+    color: white;
+    background-color: transparent;
+    resize: none;
+   
+}
+#partMaster span {
+    font-weight: bold;
+    
+    color: black;
+}
+#part1 {
+    display: inline-flex;
+    border: 1px solid rgb(199, 145, 30);
+    border-radius: 5px;
+    padding: 0px;
+    gap: 1px;
+    width: 80%;
+    background-color: slategray;
+    color: white;
+}
+#ImageDiv {
+    background-color: transparent;
+    width: 150px;
+}
+#ImageDiv img {
+    background-size: cover;
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+}
+#part2 {
+    border: 1px solid  rgb(199, 145, 30) ;
+    border-radius: 5px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: left;
+    
+}
+#part2 p, #part2 small {
+   max-width: fit-content;
+}
+#part2 small {
+    
+    overflow: auto;
+    white-space: nowrap;
+}
+#part1-2  textarea,span {
+   
+   width: auto;
+   max-width: 100%;
+}
+#part1-2 textarea {
+    border: 1px solid black;
+    padding: 2px;
+}
+#part1-2 {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#sun {
+    border-radius: 100%;
+}
+#ThemeDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+#menuIcon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#NavbarAlphaDiv {
+    width: 100%;
+    
+    padding: 3px;
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#successContent {
+    text-align: center;
+    background-color: black;
+     gap: 15px;
+     border-radius: 5px;
+     justify-content: center;
+     align-items: center;
+     padding: 4px;
+     min-width: 90px;
+     display:flex;
+     flex-direction: row;
+     border-radius: 5px;
+     border: 2px solid greenyellow;
+}
+#successDiv span {
+     
+    color : cyan;
+    text-align: center;
+    padding: 4px;
+}
+#errorDiv span  {
+    
+    color : red;
+    text-align: center;
+    padding: 4px;
+}
+#importedLoggerDiv {
+    max-width: 500px;
+    margin-left: auto;
+    font-weight: bold;
+    font-family: serif;
+    font-size: small;
+    margin-right: auto;
+
+}
+#profileImg {
+    display: grid;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#loggerForm {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    min-width: 200px;
+    background-color: slategray;
+}
+#loginBtn {
+    background-color: black;
+    color: cyan;
+    border-radius: 5px;
+    padding: 3px;
+    width: fit-content;
+    min-width: 80px;
+    font-weight: bold;
+    min-height: 30px;
+}
