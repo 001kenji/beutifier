@@ -45,6 +45,7 @@ function Home() {
     const [Mynews, setMyNews] = useState()
     const [themeSet, setThemeState] = useState('light')
     const theme = useRef()
+    
     function showTheme(props){
         
        
@@ -517,7 +518,7 @@ function LogOut() {
     return (
         <>
           <Credentials ref={theme} />
-        <div className={`${theme.current.GlobaUser.darkmode}`}  >
+        <div className={`${themeSet}`}  >
                   
        
 
